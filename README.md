@@ -2,7 +2,7 @@
 
 # <img src="frontend/public/logo.png" alt="ZeroMomentum AI Logo" width="40" style="vertical-align: -8px; margin-right: 10px; border-radius: 8px;"> ZeroMomentum AI — The Deterministic Productivity Engine
 
-**An active, multi-agent neural architecture designed to eradicate friction and mathematically enforce absolute focus.**
+**An active, multi-agent neural architecture designed to eradicate friction, mathematically enforce absolute focus, and destroy procrastination.**
 
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TensorFlow.js](https://img.shields.io/badge/TensorFlow.js-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
@@ -12,144 +12,147 @@
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](LICENSE)
 
-[Report Bug](https://github.com/MyselfDebdatta/ZeroMomentum-AI/issues) · [Request Feature](https://github.com/MyselfDebdatta/ZeroMomentum-AI/issues)
+[Report Bug](https://github.com/MyselfDebdatta/ZeroMomentum-AI-VIBE2SHIP-CODINGNINJAS-X-GOOGLE-FOR-DEVELOPERS-2026/issues) · [Request Feature](https://github.com/MyselfDebdatta/ZeroMomentum-AI-VIBE2SHIP-CODINGNINJAS-X-GOOGLE-FOR-DEVELOPERS-2026/issues)
 
 </div>
 
 ---
 
-**ZeroMomentum AI** is a highly interactive, space-themed productivity platform that completely reimagines how you work. Instead of relying on passive to-do lists, it acts as a ruthless, deterministic engine that actively monitors your psychological state via visual telemetry, deploys localized multi-agent intelligence, and guarantees execution. 
+**ZeroMomentum AI** is a highly interactive, space-themed productivity platform that completely reimagines how you work. Instead of relying on passive to-do lists that you can easily ignore, it acts as a ruthless, deterministic engine that actively monitors your physical presence, deploys localized multi-agent intelligence, and guarantees execution. 
 
 ---
 
 ## 🏆 Hackathon Context
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Google_Developers_logo.svg" alt="Google for Developers" height="40" style="margin-right: 20px;">
+  <img src="https://cdn.worldvectorlogo.com/logos/google-developers.svg" alt="Google for Developers" height="40" style="margin-right: 20px;">
   <span style="font-size: 24px; font-weight: bold; margin: 0 15px; color: #555;">&times;</span>
   <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas" height="40" style="margin-left: 20px;">
 </div>
+
+<br/>
 
 > [!NOTE]
 > This platform was engineered exclusively for the **VIBE2SHIP HACKATHON / CONTEST**, a premier developer event organized by **CodingNinjas x Google for Developers 2026**.
 
 > [!IMPORTANT]
-> 👤 **Role & Authorship:** I am the **sole developer and exclusive contributor** to this project. I independently architected and engineered the entire full-stack platform from scratch—encompassing the machine vision telemetry, the multi-agent UI architecture, and the complex backend data persistence logic.
+> 👤 **Role & Authorship:** I am the **sole developer and exclusive contributor** to this project. I independently architected and engineered the entire full-stack platform from scratch—encompassing the machine vision telemetry, the multi-agent LangGraph architecture, and the complex backend data persistence logic.
 > 
 > 🎯 **Objective:** The goal was to push the boundaries of browser-based AI by integrating real-time neural networks (TensorFlow.js) directly alongside a premium, highly animated (Framer Motion) user interface, delivering an "app-like" experience that solves the genuine human problem of context-switching and burnout.
 
 ---
 
-## 🎯 Executive Overview
+## 🎯 Executive Overview: Why Does This Exist?
 
-### 🚨 The Problem
-Modern productivity is fundamentally broken. Knowledge workers are forced to juggle disparate applications for task management, calendar scheduling, habit tracking, and note-taking. This extreme context-switching severely drains cognitive bandwidth, introduces decision fatigue, and destroys the ability to maintain a 'flow state.' 
+### 🚨 The Problem: Passive Productivity is Broken
+Modern productivity tools are passive. Knowledge workers are forced to juggle disparate applications for task management, calendar scheduling, habit tracking, and note-taking. This extreme context-switching severely drains cognitive bandwidth, introduces decision fatigue, and destroys the ability to maintain a 'flow state.' When your to-do list is just a piece of paper or a passive web page, you can easily ignore it. 
 
-### 💡 The Solution
-ZeroMomentum AI replaces passive data silos with an active, unified dashboard. It utilizes machine vision to track your physical presence and focus, mathematically enforces Pomodoro-style work blocks, and uses specialized AI agents to autonomously manage your schedule and evaluate your mental blockers.
-
-### ✨ Tech Innovations
-- **Live Visual Telemetry:** Utilizes a client-side BlazeFace TensorFlow model to track spatial coordinate geometry in real-time. It knows when you look away, lose focus, or leave your desk—and penalizes you accordingly.
-- **Localized Multi-Agent Swarm:** Different AI personas (Code Engineer, Motivation Coach, Task Orchestrator) run in isolated memory buffers to assist you without crossing context streams.
-- **Client-Side Privacy:** No video data is ever sent to a server. The facial telemetry is processed entirely in your local browser RAM.
-- **Cinematic UI/UX:** Built with React 19, Tailwind v4, and Framer Motion to deliver a glassmorphic, space-age aesthetic with immersive micro-animations.
+### 💡 The Solution: Active, Enforced Execution
+ZeroMomentum AI replaces passive data silos with an **active, unified dashboard**. It utilizes machine vision to track your physical presence, mathematically enforces Pomodoro-style work blocks, and uses specialized LangGraph AI agents to autonomously manage your schedule, read your emails, and evaluate your mental blockers. **It watches you work, and penalizes you when you stop.**
 
 ---
 
-## 🧩 Core Product Modules
+## ✨ Groundbreaking Technical Innovations
 
-ZeroMomentum AI operates through a network of interconnected architectural modules:
-
-1. **Visual Telemetry Dashboard:** The core HUD that taps into your webcam to ensure you are physically present and focused on the active task. *If you look away, the engine notices.*
-2. **Deadlines & Analyzer:** Actively calculates deadline failure percentages in real-time, parsing inbox updates and executing emergency timeline recoveries.
-3. **Timeblocks & Recovery:** Integrated Pomodoro engine featuring a strict 'Context Buffer'—a 5-minute cognitive reset protocol to prevent task-bleed when switching contexts.
-4. **Habits Galaxy:** A 365-day spatial heatmap that visualizes your streaks and enforces daily consistency.
-5. **AI Command Hub:** The central orchestrator interface where you communicate with your specialized AI agents.
-6. **Communications Engine (Smart Inbox Sync):** A simulated environment where the AI parses inbound messages and autonomously converts them into actionable calendar events and deadlines.
-7. **Evening Reflections:** Live psychological analysis heatmaps of your daily blockers and achievements.
+- **🧠 Live Visual Telemetry (TensorFlow.js):** Utilizes a client-side `BlazeFace` TensorFlow model to track spatial coordinate geometry in real-time. It knows when you look away, lose focus, or leave your desk—and adjusts your "Attention Focus" metric live.
+- **🤖 Autonomous Multi-Agent Swarm (LangGraph):** Powered by an advanced graph-based AI architecture (LangChain/LangGraph). Different AI personas (Task Orchestrator, Deep Analyzer) run in continuous loops to break down massive tasks into micro-deliverables autonomously.
+- **🔐 Client-Side Privacy Architecture:** No video data is ever sent to a server. The facial telemetry is processed entirely in your local browser RAM via WebGL acceleration. 
+- **🌐 Cloud-Native Deployment:** Fully containerized using Docker (debian-slim) and deployed seamlessly to Google Cloud Run, utilizing Cloud SQL (PostgreSQL) for enterprise-grade data persistence.
+- **🎨 Cinematic UI/UX Engineering:** Built with React 19, Tailwind v4, and Framer Motion to deliver a glassmorphic, space-age aesthetic with immersive micro-animations, neon-glow borders, and dynamic layout scaling across mobile and desktop.
 
 ---
 
-## 🛠️ Tech Stack
+## 🧩 Deep Dive: Core Product Modules
+
+ZeroMomentum AI operates through a network of highly specialized architectural modules designed to keep you in the zone.
+
+### 1. Visual Telemetry Dashboard & Deep Focus Meter
+The core HUD that taps into your webcam to ensure you are physically present. The **Deep Focus Meter** calculates an "Attention Score" based on how often your face remains locked on the screen. If you walk away during an active work block, the engine records a failure telemetry log.
+
+### 2. Autonomous Task Hub (Agentic Breakdown)
+When you add a massive, overwhelming task (e.g., "Build a full-stack application"), you don't just get a checkbox. The system triggers the **Task Intelligence Agent**, which hits an LLM (Gemini/Groq) to autonomously break the parent task down into 3-5 perfectly sized, actionable sub-tasks, assigns them priorities, and estimates the time required.
+
+### 3. Smart Inbox Sync (Communications Engine)
+Stop switching tabs to check your email. The Communications module acts as a simulated inbox parser. The AI reads incoming messages, automatically extracts deadlines, scopes out the required effort, and dynamically injects the resulting tasks directly into your active workflow schedule. 
+
+### 4. Emergency Timeblocks & Recovery Matrix
+If you fall behind, the system features a **Smart Recovery Mode**. The algorithm will dynamically wipe low-priority friction, shift your chore blocks, and schedule tight, chronological emergency work-sprints to ensure you hit your critical deadlines. It also enforces a strict 'Context Buffer'—a 5-minute cognitive reset protocol to prevent task-bleed when switching from coding to meetings.
+
+### 5. Habits Galaxy & Shield Protocol
+A spatial heatmap that visualizes your streaks. It enforces daily consistency through gamification. If you maintain a habit for 7 continuous days, you forge a **Shield**. Shields act as automated momentum protection—if you miss a day, the shield is consumed to protect your streak from resetting to zero.
+
+### 6. Evening Reflections 
+A psychological cool-down phase at the end of the day. The system maps a heatmap of your achievements and cognitive blockers, allowing the behavioral AI to give you an overview of your mental state and momentum.
+
+---
+
+## 🛠️ Technical Stack & Frameworks
 
 | Category | Technology | Details |
 | :--- | :--- | :--- |
-| **Frontend Framework** | React 19 + Vite 8 | Ultra-fast rendering and modern React features. |
-| **Styling & Animation** | Tailwind CSS v4 + Framer Motion | Premium glassmorphism, responsive grid layouts, and highly optimized fluid physics animations. |
+| **Frontend UI/UX** | React 19 + Vite 8 | Ultra-fast rendering and modern React concurrent features. |
+| **Styling & Physics** | Tailwind CSS v4 + Framer Motion | Premium glassmorphism, responsive mobile-first layouts, and fluid physics animations. |
 | **Machine Vision** | TensorFlow.js + BlazeFace | In-browser, hardware-accelerated facial detection for flow-state tracking. |
-| **State & Data** | Zustand + React Query | Global UI state management and asynchronous data fetching. |
-| **Backend & DB** | Node.js + Prisma ORM + PostgreSQL | Robust API architecture ensuring that tasks, habits, and telemetry data are securely archived. |
-| **3D Rendering** | Three.js + React Three Fiber | (Experimental) Rendering complex spatial data structures in the browser. |
+| **AI Orchestration** | LangGraph + LangChain + @google/genai | Graph-based multi-agent routing utilizing state-of-the-art LLMs. |
+| **State & Fetching** | Zustand + React Query | Global UI state management and highly-cached asynchronous data fetching (`staleTime` optimization). |
+| **Backend API** | Node.js + Express + Prisma ORM | Robust REST API architecture running on `debian-slim` to support native engine binaries. |
+| **Database & Cloud** | PostgreSQL + Google Cloud Run | Enterprise-grade Cloud SQL persistence with serverless scaling. |
 
 ---
 
-## 🏗️ Architecture (High Level)
-ZeroMomentum AI follows a modern Monorepo structure optimized for rapid iteration:
-1. **Frontend Presentation Layer:** A highly dynamic Vite SPA that handles routing (React Router DOM), complex animations, and the TensorFlow execution loop.
-2. **Backend Processing Layer:** A robust Express.js API that interfaces with Prisma. It securely handles CRUD operations for the AI Hub, Tasks, and Habit Tracking modules.
-3. **Database Layer:** PostgreSQL database that acts as the single source of truth for the entire deterministic engine.
+## 🏗️ Monorepo Architecture
 
----
+ZeroMomentum AI follows a modern, highly separated Monorepo structure optimized for rapid iteration and deployment:
 
-## 📂 Repository Structure
-
-```
+```text
 ZeroMomentum-AI/
 ├── frontend/
 │   ├── src/
-│   │   ├── components/      # Reusable UI elements (Modals, Sidebars, Cards)
-│   │   ├── layouts/         # Structural wrappers (Dashboard Sidebar/Topbars)
-│   │   ├── pages/           # Core modules (Landing, Dashboard, Habits Galaxy, etc.)
+│   │   ├── components/      # Reusable UI elements (Modals, Sidebars, Modals)
+│   │   ├── layouts/         # Structural wrappers for responsive UI routing
+│   │   ├── pages/           # Core modules (Dashboard, Habits Galaxy, Tasks, Communications)
 │   │   ├── store/           # Zustand global state configurations
-│   │   └── main.tsx         # React application entry point
-│   ├── package.json         # Frontend dependencies (TF.js, Framer, React 19)
-│   └── tailwind.config.js   # Tailwind v4 theme extensions
+│   │   └── services/        # Axios API configurations and React Query hooks
+│   ├── Dockerfile           # Nginx containerization for static asset serving
+│   └── tailwind.config.js   # Tailwind v4 custom theme extensions (colors, fonts, animations)
 ├── backend/
 │   ├── src/
-│   │   ├── controllers/     # API request handlers
+│   │   ├── agents/          # LangGraph Nodes, State management, and LLM initializers
+│   │   ├── controllers/     # API request handlers bridging REST to AI logic
 │   │   ├── routes/          # Express route definitions
-│   │   └── server.ts        # Backend entry point
-│   ├── prisma/              # Database schemas and migrations
-│   └── package.json         # Backend dependencies
-└── README.md                # You are here!
+│   │   └── utils/           # Prisma client instantiation
+│   ├── prisma/              # Database schemas and migration history
+│   └── Dockerfile           # Node.js slim image for API execution
+└── README.md                # Documentation Root
 ```
 
 ---
 
 ## ☁️ Google Cloud Deployment (Production)
 
-The production build of ZeroMomentum AI is containerized via Docker and deployed entirely on Google Cloud infrastructure.
+The production build of ZeroMomentum AI is containerized via Docker and deployed entirely on **Google Cloud Platform (GCP)**.
 
-1. **Frontend (Vite/React)**: Hosted on **Google Cloud Run** using a custom Nginx container for blazing-fast static asset delivery and SPA routing.
-2. **Backend (Node.js)**: Hosted as a separate microservice on **Google Cloud Run**, exposing port `8080` for API routing.
-3. **Database**: Managed **Google Cloud SQL (PostgreSQL)** instance running in the `asia-south1` region, securely communicating with the backend via public IP auth limits.
+1. **Frontend**: Hosted on **Google Cloud Run** using a custom Nginx container for blazing-fast static asset delivery and single-page application routing.
+2. **Backend**: Hosted as a separate microservice on **Google Cloud Run**, safely exposing port `8080` for API routing. The backend uses a specialized `node:20-slim` image equipped with `openssl` to guarantee Prisma query engine compatibility in a serverless Linux environment.
+3. **Database**: Managed **Google Cloud SQL (PostgreSQL)** instance running in the `asia-south1` region, strictly managed via environment variables to prevent hardcoded credential leakage.
 
-To deploy manually via the Google Cloud CLI (`gcloud`):
-```bash
-# Deploy Backend
-cd backend
-gcloud run deploy zeromomentum-backend --source . --port 8080 --allow-unauthenticated
-
-# Deploy Frontend
-cd frontend
-gcloud run deploy zeromomentum-frontend --source . --port 8080 --allow-unauthenticated
-```
+*Note: All `.env` files and `node_modules` are strictly excluded from the repository via a root `.gitignore` to maintain absolute security.*
 
 ---
 
-## 💻 Local Setup
+## 💻 Local Development Setup
 
-Want to experience absolute focus? Follow these steps to spin up the entire architecture locally.
+Want to experience absolute focus? Follow these steps to spin up the entire architecture locally on your own machine.
 
 ### Prerequisites
-- [Node.js](https://nodejs.org/) (v18+)
+- [Node.js](https://nodejs.org/) (v20+)
 - [PostgreSQL](https://www.postgresql.org/) (Running on `localhost:5432`)
 - Git
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/MyselfDebdatta/ZeroMomentum-AI.git
-cd ZeroMomentum-AI
+git clone https://github.com/MyselfDebdatta/ZeroMomentum-AI-VIBE2SHIP-CODINGNINJAS-X-GOOGLE-FOR-DEVELOPERS-2026.git
+cd ZeroMomentum-AI-VIBE2SHIP-CODINGNINJAS-X-GOOGLE-FOR-DEVELOPERS-2026
 ```
 
 ### 2. Backend Initialization
@@ -157,12 +160,19 @@ cd ZeroMomentum-AI
 cd backend
 npm install
 ```
-*Make sure your local PostgreSQL server is running.* Add your `.env` file with your `DATABASE_URL`, then push the schema:
+Create a `.env` file in the `backend/` directory:
+```env
+PORT=5000
+DATABASE_URL="postgresql://[USER]:[PASSWORD]@localhost:5432/zeromomentum?schema=public"
+GEMINI_API_KEY="your_api_key_here"
+GROQ_API_KEY="your_api_key_here"
+```
+Push the schema to your local database and start the server:
 ```bash
 npx prisma db push
 npm run dev
 ```
-*The backend will boot up on `localhost:5000`.*
+*The backend API will boot up on `http://localhost:5000`.*
 
 ### 3. Frontend Initialization
 Open a new terminal window:
@@ -175,16 +185,10 @@ npm run dev
 
 ---
 
-## 🔒 Security & Privacy Notes
-- **Zero Cloud Video:** The BlazeFace machine vision model runs entirely in your browser using WebGL. The system calculates spatial math, logs the telemetry point, and instantly discards the frame. Your video feed never touches a server.
-- **Isolated AI Contexts:** To prevent hallucination and data leakage, AI agents are sandboxed into their respective modules.
-
----
-
 ## 📜 License
 This project is licensed under the [MIT License](LICENSE). Copyright (c) 2026 Debdatta Panda
 
-## 👨💻 Author
+## 👨‍💻 Author
 **Debdatta Panda**  
 LinkedIn: [https://www.linkedin.com/in/debdatta-panda-dp11](https://www.linkedin.com/in/debdatta-panda-dp11)  
 GitHub: [@MyselfDebdatta](https://github.com/MyselfDebdatta)  
