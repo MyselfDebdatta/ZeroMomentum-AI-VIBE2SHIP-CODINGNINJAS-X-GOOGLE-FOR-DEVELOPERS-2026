@@ -1,0 +1,111 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id              String   @id @default(uuid())
+  firebaseUid     String   @unique
+  email           String   @unique
+  name            String?
+  productivityScore Int    @default(0)
+  shields         Int      @default(0)
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  tasks           Task[]
+  habits          Habit[]
+  habitLogs       HabitLog[]
+  reflections     EveningReflection[]
+}
+
+model EveningReflection {
+  id              String   @id @default(uuid())
+  rawInput        String   @db.Text
+  moodDetection   String
+  coachInsight    String   @db.Text
+  lockInPriorities Json
+  createdAt       DateTime @default(now())
+
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+}
+
+model Task {
+  id              String   @id @default(uuid())
+  cardNumber      String?  @unique
+  title           String
+  description     String?
+  priority        Int      @default(1) // 1=Low, 2=Medium, 3=High
+  status          String   @default("pending") // pending, in-progress, completed, missed
+  deadline        DateTime?
+  estimatedTime   Int?     // In minutes
+  baseMissRisk    Int      @default(15) // Dynamic AI-driven risk baseline
+  createdAt       DateTime @default(now())
+  updatedAt       DateTime @updatedAt
+
+  userId          String
+  user            User     @relation(fields: [userId], references: [id])
+
+  scheduleBlocks  ScheduleBlock[]
+  subtasks        Subtask[]
+}
+
+model Subtask {
+  id              String   @id @default(uuid())
+  title           String
+  status          String   @default("pending")
+  taskId          String
+  task            Task     @relation(fields: [taskId], references: [id])
+}
+
+model ScheduleBlock {
+  id              String   @id @default(uuid())
+  startTime       DateTime
+  endTime         DateTime
+  googleEventId   String?
+
+  taskId          String
+  task            Task     @relation(fields: [taskId], references: [id])
+}
+
+model Habit {
+  id              String   @id @default(uuid())
+  title           String
+  frequency       String   // e.g., "daily", "weekly"
+  category        String   @default("Focus")
+  streak          Int      @default(0)
+  isArchived      Boolean  @default(false)
+  createdAt       DateTime @default(now())
+
+  userId          String
+  user            User     @relation(fields: [userId], references: [id])
+  habitLogs       HabitLog[]
+}
+
+model AILog {
+  id              String   @id @default(uuid())
+  agentName       String
+  action          String
+  details         Json?
+  timestamp       DateTime @default(now())
+  isAcknowledged  Boolean  @default(false)
+}
+
+model HabitLog {
+  id              String   @id @default(uuid())
+  date            DateTime @db.Date // Storing just the date part if possible, or midnight timestamp
+  createdAt       DateTime @default(now())
+
+  habitId         String
+  habit           Habit    @relation(fields: [habitId], references: [id], onDelete: Cascade)
+
+  userId          String
+  user            User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+
+  @@unique([habitId, date])
+}

@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+backend/node_modules/
+frontend/node_modules/
+
+# Environment Variables & Secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+backend/.env
+frontend/.env
+frontend/.env.production
+
+# Build Outputs
+dist/
+build/
+backend/dist/
+frontend/dist/
+
+# System Files
+.DS_Store
+Thumbs.db
+*.log
+
+# Prisma
+backend/prisma/*.db
+backend/prisma/*.db-journal
+
+# Editor directories and files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
