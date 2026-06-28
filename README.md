@@ -25,8 +25,9 @@
 ## 🏆 Hackathon Context
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google Logo" width="120" style="margin-right: 20px;">
-  <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas Logo" width="150" style="margin-left: 20px;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/7/7b/Google_Developers_logo.svg" alt="Google for Developers" height="40" style="margin-right: 20px;">
+  <span style="font-size: 24px; font-weight: bold; margin: 0 15px; color: #555;">&times;</span>
+  <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas" height="40" style="margin-left: 20px;">
 </div>
 
 > [!NOTE]
@@ -57,15 +58,15 @@ ZeroMomentum AI replaces passive data silos with an active, unified dashboard. I
 
 ## 🧩 Core Product Modules
 
-Argus Bid AI operates through a network of interconnected architectural modules:
+ZeroMomentum AI operates through a network of interconnected architectural modules:
 
-1. **Visual Telemetry Dashboard:** The core HUD that taps into your webcam to ensure you are physically present and focused on the active task.
+1. **Visual Telemetry Dashboard:** The core HUD that taps into your webcam to ensure you are physically present and focused on the active task. *If you look away, the engine notices.*
 2. **Deadlines & Analyzer:** Actively calculates deadline failure percentages in real-time, parsing inbox updates and executing emergency timeline recoveries.
 3. **Timeblocks & Recovery:** Integrated Pomodoro engine featuring a strict 'Context Buffer'—a 5-minute cognitive reset protocol to prevent task-bleed when switching contexts.
 4. **Habits Galaxy:** A 365-day spatial heatmap that visualizes your streaks and enforces daily consistency.
 5. **AI Command Hub:** The central orchestrator interface where you communicate with your specialized AI agents.
-6. **Communications Engine:** A simulated environment where the AI parses inbound messages and autonomously converts them into actionable calendar events.
-7. **Evening Reflections (Voice-to-Text):** Utilizes the Web Speech API for live audio interrogations, mapping a 21-day psychological heatmap of your blockers.
+6. **Communications Engine (Smart Inbox Sync):** A simulated environment where the AI parses inbound messages and autonomously converts them into actionable calendar events and deadlines.
+7. **Evening Reflections:** Live psychological analysis heatmaps of your daily blockers and achievements.
 
 ---
 
