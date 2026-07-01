@@ -25,8 +25,12 @@
 ## 🏆 Hackathon Context
 
 <div align="center">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/2f/Google_2015_logo.svg/1200px-Google_2015_logo.svg.png" alt="Google Logo" width="120" style="margin-right: 20px;">
-  <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas Logo" width="150" style="margin-left: 20px;">
+  <div style="display: inline-flex; align-items: center;">
+    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/google/google-original.svg" alt="Google" height="40" style="margin-right: 12px;">
+    <span style="font-size: 24px; font-weight: 600; color: #5F6368; font-family: sans-serif; letter-spacing: -0.5px;">Google for Developers</span>
+  </div>
+  <span style="font-size: 24px; font-weight: bold; margin: 0 24px; color: #ccc;">&times;</span>
+  <img src="https://www.codingninjas.com/assets-landing/images/CNLOGO.svg" alt="Coding Ninjas" height="35" style="transform: translateY(2px);">
 </div>
 
 <br/>
